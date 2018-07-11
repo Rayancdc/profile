@@ -1,12 +1,5 @@
 body {
-  background-color: rgb(230, 230, 230);
-
-}
-
-div {
-  width: 50%;
-  margin: 0 auto;
-  justify-content: center;
+  background-color: rgba(230, 230, 230, 1);
 }
 
 h1 {
@@ -22,7 +15,40 @@ a:hover {
 }
 
 .avatar-big {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
   border-radius: 50%;
 }
+
+.card {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  margin: 20px 0px 20px 0px;
+
+}
+
+.container {
+  width: 45%;
+}
+
+.movie-poster {
+  width: 200px;
+  padding: 10px 0px 5px 10px;
+  flex: 1;
+  margin: auto;
+
+}
+
