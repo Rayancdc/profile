@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(230, 230, 230);
+
+}
+
+div {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+a {
+  color: rgba(40, 40, 40, 1);
+}
+
+a:hover {
+  color: rgba(40, 40, 40, 0.8);
+}
+
+.avatar-big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
